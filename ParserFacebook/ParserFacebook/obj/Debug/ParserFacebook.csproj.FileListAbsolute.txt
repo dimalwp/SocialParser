@@ -1,0 +1,16 @@
+c:\users\s24-vp\documents\visual studio 2015\Projects\ParserFacebook\ParserFacebook\bin\Debug\ParserFacebook.exe.config
+c:\users\s24-vp\documents\visual studio 2015\Projects\ParserFacebook\ParserFacebook\bin\Debug\ParserFacebook.exe
+c:\users\s24-vp\documents\visual studio 2015\Projects\ParserFacebook\ParserFacebook\bin\Debug\ParserFacebook.pdb
+c:\users\s24-vp\documents\visual studio 2015\Projects\ParserFacebook\ParserFacebook\obj\Debug\ParserFacebook.exe
+c:\users\s24-vp\documents\visual studio 2015\Projects\ParserFacebook\ParserFacebook\obj\Debug\ParserFacebook.pdb
+C:\Users\bogda\Desktop\ParserFacebook\ParserFacebook\bin\Debug\ParserFacebook.exe.config
+C:\Users\bogda\Desktop\ParserFacebook\ParserFacebook\obj\Debug\ParserFacebook.exe
+C:\Users\bogda\Desktop\ParserFacebook\ParserFacebook\obj\Debug\ParserFacebook.pdb
+C:\Users\bogda\Desktop\ParserFacebook\ParserFacebook\bin\Debug\ParserFacebook.exe
+C:\Users\bogda\Desktop\ParserFacebook\ParserFacebook\bin\Debug\ParserFacebook.pdb
+C:\Users\s24-vp\Desktop\ParserFacebook\ParserFacebook\bin\Debug\ParserFacebook.exe.config
+C:\Users\s24-vp\Desktop\ParserFacebook\ParserFacebook\obj\Debug\ParserFacebook.exe
+C:\Users\s24-vp\Desktop\ParserFacebook\ParserFacebook\obj\Debug\ParserFacebook.pdb
+C:\Users\s24-vp\Desktop\ParserFacebook\ParserFacebook\bin\Debug\ParserFacebook.exe
+C:\Users\s24-vp\Desktop\ParserFacebook\ParserFacebook\bin\Debug\ParserFacebook.pdb
+C:\Users\s24-vp\Desktop\ParserFacebook\ParserFacebook\obj\Debug\ParserFacebook.csprojResolveAssemblyReference.cache
