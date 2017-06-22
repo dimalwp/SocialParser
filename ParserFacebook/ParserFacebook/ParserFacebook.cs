@@ -213,5 +213,26 @@ namespace ParserFacebook
             return this.GetUserFriends(path).Values.ToArray();
         }
 
+
+        // Returns profileID from page.
+        // ProfileID is needed to check user`s uniqueness
+        public string GetUserProfileId(string path)
+        {
+            string html = this.GetResponseHtml(path);
+
+            Regex findRef = new Regex(@"<a class=""profilePicThumb"" .+profile_id=\d+""");
+            Regex findId = new Regex(@"\d+""");
+
+            string refer = findRef.Match(html).Value;
+            string badId = findId.Match(refer).Value;
+
+            string goodId = badId.TrimEnd('"');
+
+            // link to the user`s profile 
+            //string pathComplete = "https://www.facebook.com/profile.php?id=" + goodId;
+
+            return goodId;
+        }
+
     }
 }
