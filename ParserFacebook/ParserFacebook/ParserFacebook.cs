@@ -234,5 +234,21 @@ namespace ParserFacebook
             return goodId;
         }
 
+
+        //returns the address(country, city) of any user
+        public string GetUserAddress(string path)
+        {
+            string html = this.GetResponseHtml(this.GetPathUserInformation(path));
+            //string html = this.GetResponseHtml(path);
+
+            Regex r = new Regex(@"Живе у <a.+>(?'place'.*?)<\/a><\/div>");
+
+            string place = r.Match(html).Groups["place"].Value;
+
+            string[] separate = place.Split(' ', ',');
+
+            return place;
+        }
+
     }
 }
