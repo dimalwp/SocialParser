@@ -249,6 +249,17 @@ namespace ParserFacebook
 
             return place;
         }
+        
+        // returns link for the Education page(for other users only)
+        public string GetUserEducationLink(string path)
+        {
+            string html = this.GetResponseHtml(this.GetPathUserInformation(path) + "?section=education");
 
+            Regex r = new Regex(@"Освіта.+ href=""(?'link'.+?)"" tab");
+
+            string link = r.Match(html).Groups["link"].Value;
+
+            return link;
+        }
     }
 }
